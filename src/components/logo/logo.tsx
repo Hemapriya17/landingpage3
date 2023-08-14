@@ -8,14 +8,8 @@ interface Props {
 
 const Logo: FC<Props> = ({ onClick, variant }) => {
   return (
-    <Box onClick={onClick}>
-      <Typography
-        variant="h4"
-        component="h1"
-        sx={{ fontWeight: 700, '& span': { color: variant === 'primary' ? 'primary.main' : 'unset' } }}
-      >
-        Course<span>space</span>
-      </Typography>
+    <Box>
+      <img onClick={onClick} height={'70'} width={'200px'} src="/images/ColorLogo.png"></img>
     </Box>
   )
 }

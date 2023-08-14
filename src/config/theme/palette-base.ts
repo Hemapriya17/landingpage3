@@ -9,7 +9,7 @@ const paletteBase: Partial<PaletteOptions> = {
   },
   secondary: {
     light: '#FDE6A8',
-    main: '#ffaf35',
+    main: '#f1c232',
     dark: '#D0821C',
     contrastText: '#fbfbfb',
   },

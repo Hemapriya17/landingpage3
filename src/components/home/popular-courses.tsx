@@ -79,7 +79,7 @@ const HomePopularCourse: FC = () => {
 
   return (
     <Box
-      id="popular-course"
+      id="industries"
       sx={{
         pt: {
           xs: 6,
@@ -102,7 +102,7 @@ const HomePopularCourse: FC = () => {
               }}
             >
               <Typography variant="h1" sx={{ mt: { xs: 0, md: -5 }, fontSize: { xs: 30, md: 48 } }}>
-                Most Popular Courses
+                Efficient Living Solutions
               </Typography>
             </Box>
           </Grid>

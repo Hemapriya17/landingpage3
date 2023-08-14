@@ -40,28 +40,29 @@ const CourseCardItem: FC<Props> = ({ item }) => {
             lineHeight: 0,
             overflow: 'hidden',
             borderRadius: 3,
-            mb: 2,
+            // mb: 2,
           }}
         >
-          <Image src={item.cover} width={760} height={760} alt={'Course ' + item.id} />
+          <Image src={item.cover} width={560} height={560} alt={'Course ' + item.id} />
         </Box>
         <Box sx={{ mb: 2 }}>
-          <Typography component="h2" variant="h5" sx={{ mb: 2, height: 56, overflow: 'hidden', fontSize: '1.2rem' }}>
+          <Typography component="h2" variant="h5" sx={{ mb: 1, height: 40, overflow: 'hidden', fontSize: '1.2rem' }}>
             {item.title}
           </Typography>
-          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+          <Typography sx={{ color: 'text.secondary', mb: 2 }}>{item.content}</Typography>
+          {/* <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <Rating name="rating-course" value={item.rating} max={5} sx={{ color: '#ffce31', mr: 1 }} readOnly />
             <Typography component="span" variant="h5">
               ({item.ratingCount})
             </Typography>
-          </Box>
+          </Box> */}
         </Box>
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <Typography variant="h5" color="primary.main">
+            {/* <Typography variant="h5" color="primary.main">
               {'$' + item.price}
-            </Typography>
-            <Typography variant="h6">/ course</Typography>
+            </Typography> */}
+            {/* <Typography variant="h6">/ course</Typography> */}
           </Box>
           <IconButton
             color="primary"

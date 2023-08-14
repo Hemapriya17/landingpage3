@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography'
 import { Link as ScrollLink } from 'react-scroll'
 import { StyledButton } from '@/components/styled-button'
 import PlayArrowIcon from '@mui/icons-material/PlayArrow'
-
+import { BsRobot } from 'react-icons/bs'
 interface Exp {
   label: string
   value: string
@@ -19,15 +19,15 @@ interface ExpItemProps {
 const exps: Array<Exp> = [
   {
     label: 'Students',
-    value: '10K+',
+    value: '1K+',
   },
   {
-    label: 'Quality Course',
-    value: '20+',
+    label: 'Procedures',
+    value: '2K+',
   },
   {
-    label: 'Experience Mentors',
-    value: '10+',
+    label: 'Testers',
+    value: '100+',
   },
 ]
 
@@ -83,7 +83,7 @@ const HomeHero: FC = () => {
                       backgroundColor: 'unset',
                     }}
                   >
-                    Improve{' '}
+                    Power{' '}
                     <Box
                       sx={{
                         position: 'absolute',
@@ -97,7 +97,7 @@ const HomeHero: FC = () => {
                       <img src="/images/headline-curve.svg" alt="Headline curve" />
                     </Box>
                   </Typography>
-                  your{' '}
+                  of{' '}
                   <Typography
                     component="span"
                     sx={{
@@ -113,8 +113,8 @@ const HomeHero: FC = () => {
                       },
                     }}
                   >
-                    Skill
-                    <svg version="1.1" viewBox="0 0 3183 3072">
+                    AI
+                    {/* <svg version="1.1" viewBox="0 0 3183 3072">
                       <g id="Layer_x0020_1">
                         <path
                           fill="#F1C232"
@@ -129,10 +129,11 @@ const HomeHero: FC = () => {
                           d="M566 3c0,0 0,0 0,0 -219,-26 -427,134 -462,356 -44,271 -255,1921 90,1962 245,62 628,-1392 704,-1869 36,-221 -114,-424 -332,-449z"
                         />
                       </g>
-                    </svg>
+                    </svg> */}
+                    <BsRobot color="#f1c232" />
                   </Typography>{' '}
                   <br />
-                  with Different Way
+                  based experimentation
                 </Typography>
               </Box>
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
@@ -158,7 +159,7 @@ const HomeHero: FC = () => {
           </Grid>
           <Grid item xs={12} md={5} sx={{ position: 'relative' }}>
             {/* Sertificate badge */}
-            <Box
+            {/* <Box
               sx={{
                 position: 'absolute',
                 bottom: 30,
@@ -200,9 +201,9 @@ const HomeHero: FC = () => {
                   There are certificates for all courses.
                 </Typography>
               </Box>
-            </Box>
+            </Box> */}
             <Box sx={{ lineHeight: 0 }}>
-              <Image src="/images/home-hero.jpg" width={775} height={787} alt="Hero img" />
+              <Image src="/images/hero.gif" width={775} height={787} alt="Hero img" />
             </Box>
           </Grid>
         </Grid>
