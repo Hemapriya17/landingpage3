@@ -1,11 +1,7 @@
-Install all the dependencies:
+Install all the dependencies then run the server:
 
 ```
 npm install
-
----
-
-Run the development server:
 
 ```
 npm run dev
