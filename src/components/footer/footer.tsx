@@ -4,19 +4,20 @@ import Grid from '@mui/material/Grid'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import { FooterNavigation, FooterSocialLinks } from '@/components/footer'
+import { Logo } from '../logo'
 
 const Footer: FC = () => {
   return (
     <Box
       component="footer"
-      sx={{ backgroundColor: 'primary.main', py: { xs: 6, md: 10 }, color: 'primary.contrastText' }}
+      sx={{ backgroundColor: '#fcf5de', py: { xs: 6, md: 10 } }}
     >
       <Container>
         <Grid container spacing={1}>
           <Grid item xs={12} md={5}>
             <Box sx={{ width: { xs: '100%', md: 360 }, mb: { xs: 3, md: 0 } }}>
               <Typography component="h2" variant="h2" sx={{ mb: 2 }}>
-                Twinmo
+                <Logo/>
               </Typography>
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
                 Our innovative all-in-one solution revolutionizes the way industries approach experimentation and

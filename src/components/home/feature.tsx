@@ -113,10 +113,10 @@ const HomeFeature: FC = () => {
                       {icon}
                     </Box>
                     <Box sx={{ display: 'flex', flex: 1, flexDirection: 'column' }}>
-                      <Typography variant="h6" sx={{ fontSize: '1rem', mb: 1, color: 'secondary.main' }}>
+                      <Typography variant="h6" sx={{ fontSize:"20px", mb: 1, color: 'secondary.main' }}>
                         {title}
                       </Typography>
-                      <Typography sx={{ lineHeight: 1.3, color: 'text.secondary' }} variant="subtitle1">
+                      <Typography sx={{ fontSize:"17px" }} variant="subtitle1">
                         {description}
                       </Typography>
                     </Box>

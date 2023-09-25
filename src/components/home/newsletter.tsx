@@ -7,21 +7,21 @@ import { StyledButton } from '../styled-button'
 
 const HomeNewsLetter: FC = () => {
   return (
-    <Box sx={{ backgroundColor: 'background.paper', py: { xs: 8, md: 10 } }}>
+    <Box sx={{ backgroundColor: 'background.paper', py: { xs: 8, md: 10 } , border:"30px"}}>
       <Container>
         <Box
           sx={{
-            backgroundColor: 'secondary.main',
+            // backgroundColor: 'secondary.main',
             borderRadius: 10,
             py: { xs: 4, md: 10 },
             px: { xs: 4, md: 8 },
             textAlign: 'center',
           }}
         >
-          <Typography variant="h1" component="h2" sx={{ mb: 1, fontSize: { xs: 32, md: 42 } }}>
+          {/* <Typography variant="h1" component="h2" sx={{ mb: 1, fontSize: { xs: 32, md: 42 } }}>
             Subscribe to Our News Letter
-          </Typography>
-          <Typography sx={{ mb: 6 }}>Subscribe to our newsletter to get information about our courses.</Typography>
+          </Typography> */}
+          <Typography sx={{ mb: 6 }}>Contact us</Typography>
 
           <Box
             sx={{

@@ -3,7 +3,7 @@ import type { Course } from '@/interfaces/course'
 export const data: Array<Course> = [
   {
     id: 1,
-    cover: '/images/industry/Personal.gif',
+    cover: '/images/industry/Personal.png',
     title: 'Personal care appliances',
     rating: 5,
     ratingCount: 8,
@@ -12,16 +12,16 @@ export const data: Array<Course> = [
   },
   {
     id: 2,
-    cover: '/images/industry/Furniture.gif',
+    cover: '/images/industry/Furniture.png',
     title: 'Home furnitures',
     rating: 5,
     ratingCount: 15,
     price: 20,
-    content: 'Ssafety and quality standards, we ensure lasting furniture peace of mind for all customers.',
+    content: 'Safety and quality standards, we ensure lasting furniture peace of mind for all customers.',
   },
   {
     id: 3,
-    cover: '/images/industry/Kitchen.gif',
+    cover: '/images/industry/Kitchen.png',
     title: 'Kitchen Appliances',
     rating: 4,
     ratingCount: 7,
@@ -30,7 +30,7 @@ export const data: Array<Course> = [
   },
   {
     id: 4,
-    cover: '/images/industry/Research.gif',
+    cover: '/images/industry/Research.png',
     title: 'Research & Institute',
     rating: 4,
     ratingCount: 12,

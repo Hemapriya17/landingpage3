@@ -40,7 +40,7 @@ const SocialLinkItem: FC<SocialLinkItemProps> = ({ item }) => (
     component="li"
     sx={{
       display: 'inline-block',
-      color: 'primary.contrastText',
+      // color: 'primary.contrastText',
       mr: 0.5,
     }}
   >
@@ -67,7 +67,7 @@ const SocialLinkItem: FC<SocialLinkItemProps> = ({ item }) => (
       href={item.link}
     >
       {/* eslint-disable-next-line */}
-      <img src={item.icon} alt={item.name + 'icon'} />
+      <img src={item.icon} alt={item.name + 'icon'} style={{fill:"black"}}/>
     </Link>
   </Box>
 )

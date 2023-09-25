@@ -86,7 +86,7 @@ const HomePopularCourse: FC = () => {
           md: 8,
         },
         pb: 14,
-        backgroundColor: 'background.default',
+        backgroundColor: '#fcf5de',
       }}
     >
       <Container maxWidth="lg">

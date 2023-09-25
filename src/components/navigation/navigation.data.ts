@@ -3,7 +3,7 @@ import type { Navigation } from '@/interfaces/navigation'
 export const navigations: Navigation[] = [
   {
     label: 'Home',
-    path: '#', // '/',
+    path: 'hero', // '/',
   },
   {
     label: 'Industries',
@@ -18,7 +18,7 @@ export const navigations: Navigation[] = [
     path: 'testimonial', // '/testimonial',
   },
   {
-    label: 'Mentor',
+    label: 'Blog',
     path: 'mentors', // '/mentors',
   },
 ]

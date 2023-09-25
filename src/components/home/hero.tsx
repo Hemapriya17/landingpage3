@@ -40,7 +40,7 @@ const ExpItem: FC<ExpItemProps> = ({ item }) => {
       >
         {value}
       </Typography>
-      <Typography color="text.secondary" variant="h5">
+      <Typography variant="h5" fontSize="17px">
         {label}
       </Typography>
     </Box>
@@ -133,13 +133,13 @@ const HomeHero: FC = () => {
                     <BsRobot color="#f1c232" />
                   </Typography>{' '}
                   <br />
-                  based experimentation
+                experimentation
                 </Typography>
               </Box>
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
-                <Typography sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
+                <Typography sx={{fontSize:"20px" }}>
                   {
-                    "Let's take an online course to improve your skills in a different way, you can set your own study time according to your learning speed. So you san study comfortable and absorb tge material easily."
+                    'Testrunz is an AI-powered platform revolutionizing product development, offering speed and precision to businesses.'
                   }
                 </Typography>
               </Box>
